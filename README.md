@@ -24,7 +24,8 @@ python app.py
 La api se verifica mandando un ejemplo para confirmar que esta funcionando correctamente
 
 ```
-curl --location --request GET 'http://localhost:3001/query?feats=465,France,Female,51,8,122522.32,1,0,0,181297.65'
+#Windows version
+curl --location --request GET "http://localhost:3001/query?feats=465,France,Female,51,8,122522.32,1,0,0,181297.65"
 ```
 
 Si todo esta bien, deberías de obtener una respuesta así
